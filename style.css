@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.navbar {
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: x-large;
+}
+
+.category-button {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#display {
+    margin: top;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    padding-left: 40em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    margin: auto 0;
+    z-index: 1;
+}
