@@ -6,6 +6,4 @@ const menclothingLink = document.getElementById("mens-clothing");
 const womenclothingLink = document.getElementById("womens-clothing");
 const display = document.getElementById("display");
 
-let storedRecipes = [];
-
-const searchForm = document.getElementById('search-form');
+//! Functions
